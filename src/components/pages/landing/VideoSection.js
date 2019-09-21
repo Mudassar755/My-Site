@@ -30,7 +30,7 @@ function VideoSection() {
 
     <Modal show={show} onHide={handleClose}>
         
-        <Modal.Body><iframe src="https://www.youtube.com/embed/MjxGwfa5lxwgi" frameborder="0" height="350" width="100%" allowfullscreen></iframe></Modal.Body>
+        <Modal.Body><iframe src="https://www.youtube.com/embed/MjxGwfa5lxw" frameborder="0" height="350" width="100%" allowfullscreen></iframe></Modal.Body>
         
       </Modal>
       </div>
