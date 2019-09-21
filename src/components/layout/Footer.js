@@ -8,7 +8,7 @@ function Footer() {
             <div class="col">
               <p>
                 Copyright &copy;
-                <span id="year"></span> BrandName
+                <span id="year"></span> TypoCode
               </p>
             </div>
           </div>
