@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
     <div className="container">
-      <Link to="/" className="navbar-brand">BrandName</Link>
+      <Link to="/" className="navbar-brand">MudassarAli</Link>
       <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span className="navbar-toggler-icon"></span>
       </button>
