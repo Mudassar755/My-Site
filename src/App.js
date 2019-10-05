@@ -6,9 +6,9 @@ import AppNavbar from './components/layout/AppNavbar';
 import Footer from './components/layout/Footer';
 import Landing from './components/pages/landing/Landing';
 import About from './components/pages/About';
-import Services from './components/pages/Services';
+// import Services from './components/pages/Services';
 import Blog from './components/pages/Blog';
-import Contact from './components/pages/Contact';
+import Contact from './components/pages/contact/Contact';
 function App() {
   return (
     <Router>
@@ -17,7 +17,7 @@ function App() {
       <Switch>
         <Route exact path = '/' component = {Landing} />
         <Route exact path = '/about' component = {About} />
-        <Route exact path = '/services' component = {Services} />
+        {/* <Route exact path = '/services' component = {Services} /> */}
         <Route exact path = '/blog' component = {Blog} />
         <Route exact path = '/contact' component = {Contact} />
       </Switch>
