@@ -4,7 +4,8 @@ import person2 from '../../../img/person2.jpg'
 import person3 from '../../../img/person3.jpg'
 import person4 from '../../../img/person4.jpg'
 import avatar from '../../../img/avatar.png';
-import avatar1 from '../../../img/avatar1.png';
+import avatar2 from '../../../img/avatar2.png';
+import avatar3 from '../../../img/avatar3.png';
 
 //react-bootstrap
 import { Image, Container, Row, Col } from 'react-bootstrap';
@@ -74,12 +75,12 @@ const Contact = () => {
           <small>Marketing Manager</small>
         </Col>
         <Col md = {3}>
-          <Image src={avatar} alt=""  roundedCircle fluid />
-          <h4>Waseem</h4>
+          <Image src={avatar3} alt=""  roundedCircle fluid />
+          <h4>Sara William</h4>
           <small>Business Manager</small>
         </Col>
         <Col md = {3}>
-          <Image src={avatar} alt=""  roundedCircle fluid />
+          <Image src={avatar2} alt=""  roundedCircle fluid />
           <h4>Mudassar Ali</h4>
           <small>CEO</small>
         </Col>
