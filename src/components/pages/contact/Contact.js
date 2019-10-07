@@ -3,6 +3,8 @@ import person1 from '../../../img/person1.jpg'
 import person2 from '../../../img/person2.jpg'
 import person3 from '../../../img/person3.jpg'
 import person4 from '../../../img/person4.jpg'
+import avatar from '../../../img/avatar.png';
+import avatar1 from '../../../img/avatar1.png';
 
 //react-bootstrap
 import { Image, Container, Row, Col } from 'react-bootstrap';
@@ -27,7 +29,7 @@ const Contact = () => {
     </div>
   </header>
 {/* Contact Section */}
-<Fade bottom>
+<Fade right>
   <section id="contact" class="py-3">
     <Container>
       <Row >
@@ -61,32 +63,34 @@ const Contact = () => {
 </Fade>
 {/* Staff Section */}
   <section id="staff" class="py-5 text-center bg-dark text-white">
+    <Fade left>
     <Container >
       <h1>Our Staff</h1>
       <hr />
       <Row >
         <Col md = {3}>
-          <Image src={person1} alt=""  roundedCircle fluid />
-          <h4>Jane Doe</h4>
+          <Image src={avatar} alt=""  roundedCircle fluid />
+          <h4>Muzammil </h4>
           <small>Marketing Manager</small>
         </Col>
         <Col md = {3}>
-          <Image src={person2} alt=""  roundedCircle fluid />
-          <h4>Sara Williams</h4>
+          <Image src={avatar} alt=""  roundedCircle fluid />
+          <h4>Waseem</h4>
           <small>Business Manager</small>
         </Col>
         <Col md = {3}>
-          <Image src={person3} alt=""  roundedCircle fluid />
-          <h4>John Doe</h4>
+          <Image src={avatar} alt=""  roundedCircle fluid />
+          <h4>Mudassar Ali</h4>
           <small>CEO</small>
         </Col>
         <Col md = {3}>
-          <Image src={person4} alt=""  roundedCircle fluid />
-          <h4>Steve Smith</h4>
+          <Image src={avatar} alt=""  roundedCircle fluid />
+          <h4>Bila</h4>
           <small>Web Developer</small>
         </Col>
       </Row>
     </Container>
+    </Fade>
   </section>
     </div>
   )

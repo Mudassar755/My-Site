@@ -19,10 +19,11 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
       
   <section id="blog" class="py-3">
     <Container class="container">
+      <Fade bottom>
       <Row >
         <Col >
           <div class="card-columns">
-            <Fade bottom>
+            {/* <Fade bottom> */}
             <div class="card">
               <Image src="https://source.unsplash.com/random/300x200" alt="" fluid class=" card-img-top" />
               <div class="card-body">
@@ -35,7 +36,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
                 </p>
               </div>
             </div>
-            </Fade>
+            {/* </Fade> */}
 
             <div class="card p-3">
               <blockquote class="card-blockquote card-body">
@@ -48,7 +49,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
               </blockquote>
             </div>
              
-            <Fade bottom>
+            {/* <Fade bottom> */}
             <div class="card">
               <Image src="https://source.unsplash.com/random/301x200" alt="" fluid class=" card-img-top" />
               <div class="card-body">
@@ -61,7 +62,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
                 </p>
               </div>
             </div>
-            </Fade>
+            {/* </Fade> */}
 
             <div class="card p-3 bg-danger text-white">
               <blockquote class="card-blockquote card-body">
@@ -74,7 +75,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
               </blockquote>
             </div>
 
-            <Fade bottom>  
+            {/* <Fade bottom>   */}
             <div class="card">
               <Image src="https://source.unsplash.com/random/302x200" alt="" fluid class="card-img-top" />
               <div class="card-body">
@@ -87,7 +88,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
                 </p>
               </div>
             </div>
-            </Fade>
+            {/* </Fade> */}
 
             <div class="card p-3">
               <blockquote class="card-blockquote card-body">
@@ -102,6 +103,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
           </div>
         </Col>
       </Row>
+      </Fade>
     </Container>
   </section>
     </div>

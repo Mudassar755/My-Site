@@ -38,8 +38,8 @@ function AppNavbar() {
             </Nav.Link> */}
             <Nav.Link>
               {" "}
-              <Link to="/blog" className="nav-link">
-                Blog
+              <Link to="/blogs" className="nav-link">
+                Blogs
               </Link>
             </Nav.Link>
             <Nav.Link>
@@ -61,49 +61,9 @@ function AppNavbar() {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
+         
         </Navbar.Collapse>
-        {/* <button
-          className="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button> */}
-        {/* <div className="collapse navbar-collapse" id="navbarCollapse">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item ">
-              <Link to="/" className="nav-link">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-link">
-                About Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/services" className="nav-link">
-                Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/blog" className="nav-link">
-                Blog
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/contact" className="nav-link">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div> */}
+       
       </div>
     </Navbar>
   );
