@@ -45,7 +45,7 @@ function AppNavbar() {
             <Nav.Link>
               {" "}
               <Link to="/contact" className="nav-link">
-                Contact
+                Contact Us
               </Link>
             </Nav.Link>
 
