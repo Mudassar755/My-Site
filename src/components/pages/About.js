@@ -1,6 +1,8 @@
 import React from 'react';
 //react-bootstrap
 import { Image, Container, Row, Col } from 'react-bootstrap';
+import img8 from '../../img/imgGallery/img8.jpg';
+
 import Fade from "react-reveal/Fade";
 import Slide from 'react-reveal/Slide';
 
@@ -33,7 +35,10 @@ import Slide from 'react-reveal/Slide';
             praesentium temporibus adipisci debitis labore!</p>
         </Col>
         <Col md = {6}>
-          <Image src="https://source.unsplash.com/random/700x700/?technology" alt="" fluid roundedCircle className="d-none d-md-block about-img" />
+          <Image 
+          src={img8} 
+          // src="https://source.unsplash.com/random/700x700/?technology" 
+          alt="" fluid roundedCircle className="d-none d-md-block about-img" />
         </Col>
       </Row>
     </Container>

@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
+import img1 from '../../../img/imgGallery/img1.jpg';
+import img2 from '../../../img/imgGallery/img2.jpg';
+import img3 from '../../../img/imgGallery/img3.jpg';
+import img4 from '../../../img/imgGallery/img4.jpg';
+import img5 from '../../../img/imgGallery/img5.jpg';
+import img6 from '../../../img/imgGallery/img6.jpg';
+import img7 from '../../../img/imgGallery/img7.jpg';
 // import Magnifier from "react-magnifier";
 //react-bootstrap
 import { Image, Container, Row, Col  } from "react-bootstrap";
@@ -19,7 +26,8 @@ function PhotoGallery() {
             <Modal  show={show} onHide={handleClose}>
               <Modal.Body>
               <Image
-                src="https://source.unsplash.com/random/560x560"
+                src={img1}
+                // src="https://source.unsplash.com/random/560x560"
                 height="560"
                 width="560"
               />
@@ -30,7 +38,7 @@ function PhotoGallery() {
               onClick={handleShow}
             >
               <Image
-                src="https://source.unsplash.com/random/560x560"
+                src={img2}
                 alt=""
                fluid
               />
@@ -40,7 +48,7 @@ function PhotoGallery() {
           <Col md = {4}>
             <a href="!#" data-height="561" data-width="561" onClick={handleShow}>
               <Image
-                src="https://source.unsplash.com/random/561x561"
+                src={img3}
                 alt=""
                fluid
               />
@@ -50,7 +58,7 @@ function PhotoGallery() {
           <Col md = {4}>
             <a href="!#" onClick={handleShow} data-height="562" data-width="562">
               <Image
-                src="https://source.unsplash.com/random/562x562"
+                src={img4}
                 alt=""
                 fluid
               />
@@ -62,7 +70,7 @@ function PhotoGallery() {
           <Col md = {4}>
             <a href="!#" onClick={handleShow} data-height="563" data-width="563">
               <Image
-                src="https://source.unsplash.com/random/563x563"
+                src={img5}
                 alt=""
                fluid
               />
@@ -72,7 +80,7 @@ function PhotoGallery() {
           <Col md = {4}>
             <a href="!#" onClick={handleShow} data-height="564" data-width="564">
               <Image
-                src="https://source.unsplash.com/random/564x564"
+                src={img6}
                 alt=""
                 fluid
               />
@@ -82,7 +90,7 @@ function PhotoGallery() {
           <Col md = {4}>
             <a href="!#" onClick={handleShow} data-height="565" data-width="565">
               <Image
-                src="https://source.unsplash.com/random/565x565"
+                src={img7}
                 alt=""
                 fluid
               />

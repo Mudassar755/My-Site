@@ -23,7 +23,7 @@ const ContactForm = () => {
             name="firstName"
             type="text"
             placeholder="First name"
-            defaultValue=""
+            defaultValue="Mark"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -34,7 +34,7 @@ const ContactForm = () => {
             name="lastName"
             type="text"
             placeholder="Last name"
-            defaultValue=""
+            defaultValue="Otto"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -47,7 +47,7 @@ const ContactForm = () => {
             name="email"
             type="email"
             placeholder="Enter Email"
-            defaultValue=""
+            defaultValue="email"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -58,7 +58,7 @@ const ContactForm = () => {
             name="phone"
             type="text"
             placeholder="Phone Number"
-            defaultValue=""
+            defaultValue="555-555-555"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -73,7 +73,7 @@ const ContactForm = () => {
             required
             placeholder="Enter Address"
             name="address"
-            defaultValue=""
+            defaultValue="Street 10, City, Country"
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>

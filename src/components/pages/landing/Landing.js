@@ -13,7 +13,7 @@ function Dashboard() {
   return (
     <div>
       <Slider />
-      <Slide right>
+      <Slide bottom>
         <HomeIcons />
       </Slide>
       <Slide bottom>

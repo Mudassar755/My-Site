@@ -2,6 +2,10 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 //react-bootstrap
 import { Image, Container, Row, Col } from 'react-bootstrap';
+import img9 from '../../../img/imgGallery/img9.jpg';
+import img10 from '../../../img/imgGallery/img10.jpg';
+import img11 from '../../../img/imgGallery/img11.jpg';
+
 
  function Blog() {
   return (
@@ -25,7 +29,10 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
           <div class="card-columns">
             {/* <Fade bottom> */}
             <div class="card">
-              <Image src="https://source.unsplash.com/random/300x200" alt="" fluid class=" card-img-top" />
+              <Image
+               src={img9}
+              //  src="https://source.unsplash.com/random/300x200" 
+               alt="" fluid class=" card-img-top" />
               <div class="card-body">
                 <h4 class="card-title">Blog Post One</h4>
                 <small class="text-muted">Written by Jeff on 05/20</small>
@@ -51,7 +58,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
              
             {/* <Fade bottom> */}
             <div class="card">
-              <Image src="https://source.unsplash.com/random/301x200" alt="" fluid class=" card-img-top" />
+              <Image src={img10} alt="" fluid class=" card-img-top" />
               <div class="card-body">
                 <h4 class="card-title">Blog Post Two</h4>
                 <small class="text-muted">Written by Karen on 05/22</small>
@@ -77,7 +84,7 @@ import { Image, Container, Row, Col } from 'react-bootstrap';
 
             {/* <Fade bottom>   */}
             <div class="card">
-              <Image src="https://source.unsplash.com/random/302x200" alt="" fluid class="card-img-top" />
+              <Image src={img11} alt="" fluid class="card-img-top" />
               <div class="card-body">
                 <h4 class="card-title">Blog Post Three</h4>
                 <small class="text-muted">Written by Harry on 05/23</small>
