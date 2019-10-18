@@ -1,8 +1,9 @@
 import React from 'react';
 import person1 from '../../../img/person1.jpg'
-import person2 from '../../../img/person2.jpg'
+import person2 from '../../../img/person2.png'
 import person3 from '../../../img/person3.jpg'
-import person4 from '../../../img/person4.jpg'
+import person4 from '../../../img/person4.png'
+import person5 from '../../../img/person5.png'
 
 //react-bootstrap
 import { Image, Container, Row, Col, Card } from 'react-bootstrap';
@@ -19,7 +20,7 @@ const Contact = () => {
      <header id="page-header">
     <Container>
       <Row >
-        <Col md = {6} classNmae="m-auto text-center">
+        <Col md = {6} className="m-auto text-center">
           <h1>Contact Us</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
         </Col>
@@ -63,28 +64,33 @@ const Contact = () => {
   <section id="staff" class="py-5 text-center bg-dark text-white">
     <Fade left>
     <Container >
-      <h1>Our Staff</h1>
+      <h1>Our Team</h1>
       <hr />
       <Row >
         <Col md = {3}>
           <Image src={person1} alt=""  roundedCircle fluid />
-          <h4>Jane Doe</h4>
-          <small>Marketing Manager</small>
+          <h4>Talha Mughal</h4>
+          <small>Sr.MERN Stack Developer</small>
         </Col>
-        <Col md = {3}>
+        <Col md = {2}>
           <Image src={person2} alt=""  roundedCircle fluid />
-          <h4>Sara Williams</h4>
-          <small>Business Manager</small>
+          <h4>Wajid Shahid</h4>
+          <small>MERN Stack Developer</small>
         </Col>
-        <Col md = {3}>
+        <Col md = {2}>
           <Image src={person3} alt=""  roundedCircle fluid />
-          <h4>John Doe</h4>
-          <small>CEO</small>
+          <h4>Mudassar Ali</h4>
+          <small>MERN Stack Developer</small>
+        </Col>
+        <Col md = {2}>
+          <Image src={person4} alt=""  roundedCircle fluid />
+          <h4>Mujahid Iqbal</h4>
+          <small>MERN Stack Developer</small>
         </Col>
         <Col md = {3}>
-          <Image src={person4} alt=""  roundedCircle fluid />
-          <h4>Steve Smith</h4>
-          <small>Web Developer</small>
+          <Image src={person5} alt=""  roundedCircle fluid />
+          <h4>Mubashir Hussain</h4>
+          <small>Sr.MERN Stack Developer</small>
         </Col>
       </Row>
     </Container>

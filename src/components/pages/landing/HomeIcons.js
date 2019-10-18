@@ -9,19 +9,22 @@ function HomeIcons() {
     <Container >
       <Row >
         <Col md = {4} className="mb-4 text-center">
-          <i className="fas fa-cog fa-3x mb-2"></i>
-          <h3>Turning Gears</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          {/* <i className="fas fa-cog fa-3x mb-2"></i> */}
+          <i className="fas fa-laptop-code fa-3x mb-2"></i>
+          <h3>Web Development</h3>
+          <p>We will develop a Stunning Web Application with React.Js and Node.Js</p>
         </Col>
         <Col md ={4} className="mb-4 text-center">
-          <i className="fas fa-cloud fa-3x mb-2"></i>
-          <h3>Sending Data</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          {/* <i className="fas fa-cloud fa-3x mb-2"></i> */}
+          <i className="fas fa-mobile-alt fa-3x mb-2" ></i>
+          <h3>Mobile App Development</h3>
+          <p>We will develop an iOS / android Mobile App with React-Native</p>
         </Col>
         <Col md ={4} className="mb-4 text-center">
-          <i className="fas fa-cart-plus fa-3x mb-2"></i>
-          <h3>Making Money</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          {/* <i className="fas fa-cart-plus fa-3x mb-2"></i> */}
+          <i className="fas fa-bug fa-3x mb-2"></i>
+          <h3>Bug Fixing</h3>
+          <p>We will fix bugs in your React.Js Web or Native-App</p>
         </Col>
       </Row>
     </Container>
