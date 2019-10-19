@@ -4,6 +4,7 @@ import project2 from "../../../img/imgGallery/project2.jpg";
 import project3 from "../../../img/imgGallery/project3.jpg";
 import project4 from "../../../img/imgGallery/project4.jpg";
 import project5 from "../../../img/imgGallery/project5.jpg";
+import project6 from "../../../img/imgGallery/project6.jpg";
 import img5 from "../../../img/imgGallery/img5.jpg";
 import img6 from "../../../img/imgGallery/img6.jpg";
 import img7 from "../../../img/imgGallery/img7.jpg";
@@ -77,11 +78,11 @@ function PhotoGallery() {
 
           <Col md={4}>
             <a
-              href="http://checkkrvao.herokuapp.com/c_cpp"
+              href="http://sams-03016795377.herokuapp.com/"
               data-height="565"
               data-width="565"
             >
-              <Image src={img7} alt="" fluid />
+              <Image src={project6} alt="" fluid />
             </a>
           </Col>
         </Row>

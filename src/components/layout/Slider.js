@@ -48,7 +48,7 @@ function Slider() {
           <p className="lead">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
             aperiam vel ullam deleniti reiciendis ratione quod aliquid inventore
-            vero perspiciatis.
+            vero.
           </p>
           <Link to="/about" className="btn btn-success btn-lg">
             Learn More
