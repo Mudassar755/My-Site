@@ -42,7 +42,7 @@ const Contact = () => {
               <h4>Email</h4>
               <p>developerpad86@gmail.com</p>
               <h4>Phone</h4>
-              <p>(+92) (10) 6144452</p>
+              <p>(+92) (10) 6144542</p>
             </Card.Body>
           </Card>
         </Col>

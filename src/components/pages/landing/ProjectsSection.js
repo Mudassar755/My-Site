@@ -3,6 +3,7 @@ import project1 from "../../../img/imgGallery/project1.jpg";
 import project2 from "../../../img/imgGallery/project2.jpg";
 import project3 from "../../../img/imgGallery/project3.jpg";
 import project4 from "../../../img/imgGallery/project4.jpg";
+import project5 from "../../../img/imgGallery/project5.jpg";
 import img5 from "../../../img/imgGallery/img5.jpg";
 import img6 from "../../../img/imgGallery/img6.jpg";
 import img7 from "../../../img/imgGallery/img7.jpg";
@@ -20,7 +21,7 @@ function PhotoGallery() {
         <Row className="mb-4">
           <Col md={4}>
             <a
-              href="https://online-shopping-store.herokuapp.com/"
+              href="https://opencoastb2b.com/"
               target="blank"
               data-height="562"
               data-width="562"
@@ -30,18 +31,18 @@ function PhotoGallery() {
           </Col>
           <Col md={4}>
             <a
-              href="https://online-shopping-store.herokuapp.com/admin"
+              href="https://online-shopping-store.herokuapp.com/"
               target="blank"              
               data-height="562"
               data-width="562"
             >
-              <Image src={project2} alt="" fluid />
+              <Image src={project2} alt="eCommerce Site" fluid />
             </a>
           </Col>
 
           <Col md={4}>
             <a
-              href="https://developerpad.herokuapp.com/"
+              href="https://online-shopping-store.herokuapp.com/admin"
               target="blank"
               data-height="562"
               data-width="562"
@@ -55,7 +56,7 @@ function PhotoGallery() {
         <Row className="mb-4">
           <Col md={4}>
             <a
-              href="http://checkkrvao.herokuapp.com/c_cpp"
+              href="https://developerpad.herokuapp.com/"
               target="blank"
               data-height="563"
               data-width="563"
@@ -70,7 +71,7 @@ function PhotoGallery() {
               data-height="564"
               data-width="564"
             >
-              <Image src={img6} alt="" fluid />
+              <Image src={project5} alt="" fluid />
             </a>
           </Col>
 

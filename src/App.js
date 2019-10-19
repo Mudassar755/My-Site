@@ -4,11 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import AppNavbar from './components/layout/AppNavbar';
 import Footer from './components/layout/Footer';
-import Landing from './components/pages/landing/Landing';
-import About from './components/pages/About';
-// import Services from './components/pages/Services';
-import Blog from './components/pages/blogs/Blogs';
-import Contact from './components/pages/contact/Contact';
+import Landing from './components/pages/landing';
 import Routes from './components/routing/Routes'
 function App() {
   return (

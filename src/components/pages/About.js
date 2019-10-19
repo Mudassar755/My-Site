@@ -1,7 +1,9 @@
 import React from 'react';
 //react-bootstrap
 import { Image, Container, Row, Col } from 'react-bootstrap';
-import img8 from '../../img/imgGallery/img8.jpg';
+import banner from '../../img/banner.jpg';
+import img from '../../img/about.jpeg';
+
 
 import Fade from "react-reveal/Fade";
 import Slide from 'react-reveal/Slide';
@@ -36,7 +38,7 @@ import Slide from 'react-reveal/Slide';
         </Col>
         <Col md = {6}>
           <Image 
-          src={img8} 
+          src={banner} 
           // src="https://source.unsplash.com/random/700x700/?technology" 
           alt="" fluid roundedCircle className="d-none d-md-block about-img" />
         </Col>
@@ -52,7 +54,7 @@ import Slide from 'react-reveal/Slide';
           <div class="card bg-danger text-white text-center">
             <div class="card-body">
               <i class="fas fa-building fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3>Mobile App</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -61,7 +63,7 @@ import Slide from 'react-reveal/Slide';
           <div class="card bg-dark text-white text-center">
             <div class="card-body">
               <i class="fas fa-bullhorn fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3>Web Application</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -70,7 +72,7 @@ import Slide from 'react-reveal/Slide';
           <div class="card bg-danger text-white text-center">
             <div class="card-body">
               <i class="fas fa-comments fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3>Progressive Web App</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -83,7 +85,7 @@ import Slide from 'react-reveal/Slide';
           <div class="card bg-dark text-white text-center">
             <div class="card-body">
               <i class="fas fa-box fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3>Single Page App</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -92,7 +94,7 @@ import Slide from 'react-reveal/Slide';
           <div class="card bg-danger text-white text-center">
             <div class="card-body">
               <i class="fas fa-credit-card fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3>E-Commerce</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -101,7 +103,7 @@ import Slide from 'react-reveal/Slide';
           <div class="card bg-dark text-white text-center">
             <div class="card-body">
               <i class="fas fa-coffee fa-3x"></i>
-              <h3>Sample Heading</h3>
+              <h3>Native App</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
           </div>
@@ -112,7 +114,7 @@ import Slide from 'react-reveal/Slide';
   </section>
 
   {/* TESTIMONIALS */}
-  <section id="testimonials" className="p-4 bg-dark text-white">
+  {/* <section id="testimonials" className="p-4 bg-dark text-white">
     <Container>
       <h2 className="text-center">testimonials</h2>
       <Row className="text-center">
@@ -128,7 +130,7 @@ import Slide from 'react-reveal/Slide';
                 </footer>
               </blockquote>
             </div>
-            {/* <div>
+            <div>
               <blockquote class="blockquote">
                 <p class="mb-0">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
@@ -137,8 +139,8 @@ import Slide from 'react-reveal/Slide';
                   <cite title="Company 2">Company 2</cite>
                 </footer>
               </blockquote>
-            </div> */}
-            {/* <div>
+            </div> 
+            <div>
               <blockquote class="blockquote">
                 <p class="mb-0">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
@@ -147,12 +149,12 @@ import Slide from 'react-reveal/Slide';
                   <cite title="Company 3">Company 3</cite>
                 </footer>
               </blockquote>
-            </div> */}
+            </div>
           </div>
         </Col>
       </Row>
     </Container>
-  </section>
+  </section> */}
     </div>
   )
 }

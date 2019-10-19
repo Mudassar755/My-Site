@@ -3,7 +3,7 @@ import Slider from "../../layout/Slider";
 import HomeIcons from "./HomeIcons";
 import Info from "./Info";
 import VideoSection from "./VideoSection";
-import PhotoGallery from "./PhotoGallery";
+import ProjectsSection from "./ProjectsSection";
 import NewsLetter from "./NewsLetter";
 // import Fade from "react-reveal/Fade";
 import Slide from 'react-reveal/Slide';
@@ -23,7 +23,7 @@ function Dashboard() {
         <VideoSection />
       </Slide>
       <Slide bottom>
-        <PhotoGallery />
+        <ProjectsSection />
       </Slide>
       <Slide bottom>
         <NewsLetter />
